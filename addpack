@@ -3,7 +3,6 @@
 echo
 
 echo 'updating ... '
-echo
 sudo apt-get update
 
 echo
