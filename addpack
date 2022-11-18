@@ -8,4 +8,4 @@ sudo apt-get update
 
 echo
 echo 'installing scrcpy ...'
-sudo apt-get install scrcpy
+sudo apt-get -y install scrcpy
