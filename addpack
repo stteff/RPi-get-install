@@ -1,2 +1,7 @@
 #! /bin/sh
+
+echo 'updating ... '
 sudo apt-get update
+
+echo 'installing scrcpy ...'
+sudo apt-get install install scrcpy
