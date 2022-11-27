@@ -2,5 +2,5 @@
 
 echo
 
-echo 'removin package scrcpy ...'
+echo 'removing package scrcpy ...'
 sudo apt-get -y --purge remove scrcpy
