@@ -1,1 +1,6 @@
+#! /bin/sh
 
+echo
+
+echo 'removin package scrcpy ...'
+sudo apt-get -y --purge remove scrcpy
