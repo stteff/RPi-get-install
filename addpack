@@ -6,5 +6,5 @@ echo 'updating ... '
 sudo apt-get update
 
 echo
-echo 'installing scrcpy ...'
-sudo apt-get -y install scrcpy
+echo 'installing scratch3 ...'
+sudo apt-get -y install scratch3
