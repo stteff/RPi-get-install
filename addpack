@@ -6,5 +6,5 @@ echo 'updating ... '
 sudo apt-get update
 
 echo
-echo 'installing scratch3 ...'
-sudo apt-get -y install scratch3
+echo 'installing shotwell ...'
+sudo apt-get -y install shotwell
