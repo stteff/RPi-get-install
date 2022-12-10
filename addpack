@@ -1,10 +1,17 @@
 #! /bin/sh
 
-echo
+# Flag to be set to (yes / no), whether there is software to be installed on RPis in Lab, or not
+NEW_SW=yes
 
-echo 'updating ... '
-sudo apt-get update
+if [[ $NEW_SW == "yes" ]];
+then
+    echo
 
-echo
-echo 'installing shotwell ...'
-sudo apt-get -y install shotwell
+    echo 'updating ... '
+    sudo apt-get update
+
+    echo
+    echo 'installing shotwell ...'
+    sudo apt-get -y install shotwell
+else
+    echo "There is no new software to install"
