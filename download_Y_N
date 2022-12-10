@@ -1,2 +1,0 @@
-# Flag to be set to (yes / no), whether there is software to be installed on RPis in Lab, or not
-NEW_SW=yes
