@@ -16,3 +16,4 @@ then
     sudo apt-get -y install shotwell
 else
     echo "There is no new software to install"
+fi
