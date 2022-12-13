@@ -6,7 +6,7 @@ NEW_SW=yes
 
 if [[ $NEW_SW == "yes" ]];
 then
-    echo "There is new Software for installation."
+    echo "There is new Software for installation............."
     read -p "Do you want to install it now ? (y/n) " op
     if [[ $op == "y" ]];
     then
