@@ -1,19 +1,27 @@
-#! /bin/sh
+#! /bin/bash
 
 # Flag to be set to (yes / no), whether there is software to be installed on RPis in Lab, or not
 
-NEW_SW=No
+NEW_SW=yes
 
 if [[ $NEW_SW == "yes" ]];
 then
-    echo
+    echo "There is new Software for installation."
+    read -p "Do you want to install it now ? (y/n) " op
+    if [[ $op == "y" ]];
+    then
+        
+        echo
 
-    echo 'updating ... '
-    sudo apt-get update
+        echo 'updating ... '
+        sudo apt-get update
 
-    echo
-    echo 'installing shotwell ...'
-    sudo apt-get -y install shotwell
+        echo
+        echo 'installing shotwell ...'
+        sudo apt-get -y install shotwell
+    else
+        exit
+    fi        
 else
     echo "There is no new software to install"
 fi
