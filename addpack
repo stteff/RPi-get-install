@@ -17,8 +17,8 @@ then
         sudo apt-get update
 
         echo
-        echo 'installing shotwell ...'
-        sudo apt-get -y install shotwell
+        echo 'installing kolourpaint ...'
+        sudo apt-get -y install kolourpaint
     else
         exit
     fi        
